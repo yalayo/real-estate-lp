@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "busqandote.com"
+  bucket = "real-estate-lp"
   acl    = "public-read"
   policy = file("policy.json")
 
