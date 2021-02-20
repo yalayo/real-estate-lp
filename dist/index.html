@@ -9,8 +9,109 @@
         <title>Welcome to my Website</title>
     </head>
     <body>
-        <div id="app">
-            Client name here
-        </div>
+
+        <!-- Cover -->
+        <section class="hero is-dark is-fullheight" style="background-image: url('images/cover.jpg'); background-size: cover; background-blend-mode: soft-light;">
+            <div class="hero-body">
+                <div class="">
+                    <h1 class="title">
+                        Title here
+                    </h1>
+                    <h2 class="subtitle">
+                        Subtitle here
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main -->
+        <section class="section">
+            <h1 class="title">Section</h1>
+            <h2 class="subtitle">
+                We placer our <strong>text</strong> here, something about what we are offering.
+            </h2>
+
+            <div>
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Contact info</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left">
+                                <input class="input" type="text" placeholder="Name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control is-expanded has-icons-left has-icons-right">
+                                <input class="input is-success" type="email" placeholder="Email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Subject</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input is-danger" type="text" placeholder="e.g. Consultation request">
+                            </div>
+                            <p class="help is-danger">
+                                This field is required
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Comment or question</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <!-- Left empty for spacing -->
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary">
+                                    Join
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    Brought by <a href="https://b2b.busqandote.com/">Busqandote</a>.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
